@@ -7,7 +7,8 @@ module.exports = (env, argv) => {
 
   return {
     entry: {
-      main: './assets/main.ts',
+      maquette1: './assets/maquette1.ts',
+      maquette2: './assets/maquette2.ts',
     },
 
     output: {

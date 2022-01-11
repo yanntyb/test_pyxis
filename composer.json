@@ -1,0 +1,24 @@
+{
+    "name": "yannt/test_pyxis",
+    "autoload": {
+        "psr-4": {
+            "Yannt\\TestPyxis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yanntyb",
+            "email": "yanntyb.lbc@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3",
+        "yanntyb/router": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:yanntyb-lib/router.git"
+        }
+    ]
+}

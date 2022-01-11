@@ -1,0 +1,42 @@
+@use "reset";
+
+#main{
+  width: 100%;
+  height: 100vh;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img{
+    height: 100%;
+  }
+
+  #info{
+    height: 100%;
+    width: 50%;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 19px;
+    p {
+      margin-top: 7%;
+
+      &#name{
+        font-weight: bold;
+      }
+
+      span {
+        color: red;
+        font-weight: normal;
+      }
+    }
+
+    #message{
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 5px;
+      height: 30%;
+      padding: 2%;
+    }
+  }
+}
