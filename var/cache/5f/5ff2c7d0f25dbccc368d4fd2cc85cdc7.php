@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* maquette1.html.twig */
-class __TwigTemplate_7c941a7210b60c5fae26e3bcd94556aa extends Template
+class __TwigTemplate_4203039e89967580207628482abbbe9e extends Template
 {
     private $source;
     private $macros = [];
@@ -77,15 +77,15 @@ class __TwigTemplate_7c941a7210b60c5fae26e3bcd94556aa extends Template
         <div id=\"container-formulaire\">
             <h3>Organiser un évènement</h3>
             <div id=\"formulaire\">
-                <form action=\"index.php/maquette2\" method=\"post\">
+                <form action=\"/maquette2\" method=\"post\">
                     <div>
-                        <input name=\"name\" type=\"text\" placeholder=\"Nom & Prénom\">
+                        <input name=\"name\" type=\"text\" placeholder=\"Nom & Prénom\" required>
                     </div>
                     <div>
-                        <input name=\"email\" type=\"email\" placeholder=\"Adresse email\">
+                        <input name=\"email\" type=\"email\" placeholder=\"Adresse email\" required>
                     </div>
                     <div>
-                        <textarea notre name=\"message\" id=\"\" cols=\"30\" rows=\"5\" placeholder=\"Message\"></textarea>
+                        <textarea notre name=\"message\" id=\"\" cols=\"30\" rows=\"5\" placeholder=\"Message\" required></textarea>
                     </div>
                     <div>
                         <input type=\"submit\" value=\"Organiser\">
@@ -277,15 +277,15 @@ class __TwigTemplate_7c941a7210b60c5fae26e3bcd94556aa extends Template
         <div id=\"container-formulaire\">
             <h3>Organiser un évènement</h3>
             <div id=\"formulaire\">
-                <form action=\"index.php/maquette2\" method=\"post\">
+                <form action=\"/maquette2\" method=\"post\">
                     <div>
-                        <input name=\"name\" type=\"text\" placeholder=\"Nom & Prénom\">
+                        <input name=\"name\" type=\"text\" placeholder=\"Nom & Prénom\" required>
                     </div>
                     <div>
-                        <input name=\"email\" type=\"email\" placeholder=\"Adresse email\">
+                        <input name=\"email\" type=\"email\" placeholder=\"Adresse email\" required>
                     </div>
                     <div>
-                        <textarea notre name=\"message\" id=\"\" cols=\"30\" rows=\"5\" placeholder=\"Message\"></textarea>
+                        <textarea notre name=\"message\" id=\"\" cols=\"30\" rows=\"5\" placeholder=\"Message\" required></textarea>
                     </div>
                     <div>
                         <input type=\"submit\" value=\"Organiser\">
@@ -439,6 +439,6 @@ class __TwigTemplate_7c941a7210b60c5fae26e3bcd94556aa extends Template
             <p>Est ante porta non ultrices dui ipsum suspendisse magma sit</p>
         </div>
     </footer>
-{% endblock %}", "maquette1.html.twig", "C:\\Users\\yannt\\Desktop\\stage\\test_pyxis\\templates\\maquette1.html.twig");
+{% endblock %}", "maquette1.html.twig", "C:\\Users\\yannt\\Desktop\\+4\\stage\\test_pyxis\\templates\\maquette1.html.twig");
     }
 }

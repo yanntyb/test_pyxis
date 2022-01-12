@@ -253,12 +253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yanntyb-lib/router.git",
-                "reference": "c6da0ac913ecdf760aceeb448814b2259899fe23"
+                "reference": "ecb258a3cc6af16af83ef16b32aa7b3d699c3e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yanntyb-lib/router/zipball/c6da0ac913ecdf760aceeb448814b2259899fe23",
-                "reference": "c6da0ac913ecdf760aceeb448814b2259899fe23",
+                "url": "https://api.github.com/repos/yanntyb-lib/router/zipball/ecb258a3cc6af16af83ef16b32aa7b3d699c3e7b",
+                "reference": "ecb258a3cc6af16af83ef16b32aa7b3d699c3e7b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -284,7 +284,7 @@
                 "source": "https://github.com/yanntyb-lib/router/tree/main",
                 "issues": "https://github.com/yanntyb-lib/router/issues"
             },
-            "time": "2022-01-10T08:35:44+00:00"
+            "time": "2022-01-12T15:48:12+00:00"
         }
     ],
     "packages-dev": [],
